@@ -8,7 +8,7 @@ public class CameraFollow : MonoBehaviour
 	private Vector3 velocity = Vector3.zero;
 	public Transform target;
 
-	void Update()
+	void LateUpdate()
 	{
 		if (target)
 		{

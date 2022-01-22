@@ -2,23 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum ZoneState { Clean, Sick, MegaSick, Canceled }
+public enum ZoneState { Clean, Sick, Canceled }
 public class Zone : MonoBehaviour
 {
     public LayerMask layerZone;//Capa que afectan las zonas
+    public LayerMask layerLight;//Capa que almacena las luces
     public ZoneState zoneState = ZoneState.Clean;
 
     public float contamination; //Grado en que la niebla afecto a la zona
     public bool isSick = false; //Si esta enferma la zona o no
-    public bool isMegaSick = false;
     public float sickCadence; //Velocidad en que suma contaminacion
     public float sickAmount; //Cantidad de contaminacion que suma
     public float sickAmountInfect; //Cantidada de contaminacion que se resta una vez llega a 100
     public float sickProbabilityInfect;
-    public float sickProbabilityMegaSick;
     float sickNextCheck; //Parametro secundario para calcular la cadencia de suma de contaminacion
 
-    public float illumination; //Cantidad de iluminacion en la zona
+    public bool illumination; //si hay iluminacion en la zona
 
     public ParticleSystem fogParticle;
     void Start()
@@ -34,26 +33,16 @@ public class Zone : MonoBehaviour
                 {
                     zoneState = ZoneState.Sick;
                 }
-                if (isMegaSick)
-                {
-                    zoneState = ZoneState.MegaSick;
-                }
                 break;
             case ZoneState.Sick:
                 SickState();
-                if (isMegaSick)
+                if (illumination)
                 {
-                    zoneState = ZoneState.MegaSick;
-                }
-                break;
-            case ZoneState.MegaSick:
-                MegaSickState();
-                if (isSick)
-                {
-                    zoneState = ZoneState.Sick;
+                    zoneState = ZoneState.Canceled;
                 }
                 break;
             case ZoneState.Canceled:
+                CanceledState();
                 break;
             default:
                 break;
@@ -61,7 +50,23 @@ public class Zone : MonoBehaviour
 
     }
 
-
+    public void GetClean()
+    {
+        isSick = false;
+        zoneState = ZoneState.Clean;
+        contamination = 0;
+        Debug.Log(transform.name + " SE LIMPIO");
+        fogParticle.Stop();
+    }
+    public void GetLight()
+    {
+        if(illumination)
+        {
+            return;
+        }
+        isSick = false;
+        illumination = true;
+    }
     public void GetSick() //Se enferma por una zona vecina
     {
         if(isSick) //Si esta enferma
@@ -70,72 +75,37 @@ public class Zone : MonoBehaviour
         }
         fogParticle.Play();
         Debug.Log(transform.name + " se enfermo");
-        isMegaSick = false;
+        contamination = 30;
         isSick = true; //Enferma modo on
     }
 
-    public void GetMegaSick()
+    void Infect() //Accion de infectar a vecinos
     {
-        if(isMegaSick)
+        Collider2D[] hitColliders = Physics2D.OverlapBoxAll(gameObject.transform.position, transform.localScale * 2, 0f, layerZone);
+        int i = 0;
+        Debug.Log(hitColliders.Length);
+        //Check when there is a new collider coming into contact with the box
+        while (i < hitColliders.Length)
+        {
+            //Output all of the collider names
+            float random = Random.Range(1, 100);
+            if(random < sickProbabilityInfect) //Es la probabilidad de contagiar a los vecinos
+            {
+                if(hitColliders[i].GetComponent<Zone>().zoneState != ZoneState.Sick && hitColliders[i].GetComponent<Zone>().zoneState != ZoneState.Canceled)
+                SelectEffectSick(hitColliders[i].GetComponent<Zone>());
+            }
+            //Debug.Log("Hit : " + hitColliders[i].name + i);
+            //Increase the number of Colliders in the array
+            i++;
+        }
+    }
+
+    void SickState()
+    {
+        if(illumination)
         {
             return;
         }
-        Debug.Log(transform.name + " se Transformo en Mega");
-        contamination = 0;
-        isSick = false;
-        isMegaSick = true;
-    }
-
-    void Infect()
-    {
-        Collider2D[] hitColliders = Physics2D.OverlapBoxAll(gameObject.transform.position, transform.localScale * 2, 0f, layerZone);
-        int i = 0;
-        Debug.Log(hitColliders.Length);
-        //Check when there is a new collider coming into contact with the box
-        while (i < hitColliders.Length)
-        {
-            //Output all of the collider names
-            float random = Random.Range(1, 100);
-            if(random < sickProbabilityInfect)
-            {
-                SelectEffectSick(hitColliders[i].GetComponent<Zone>());
-            }
-            random = Random.Range(1, 100);
-            if (random < sickProbabilityMegaSick)
-            {
-                GetMegaSick();
-            }
-            Debug.Log("Hit : " + hitColliders[i].name + i);
-            //Increase the number of Colliders in the array
-            i++;
-        }
-    }
-
-    void MegaInfect()
-    {
-        Collider2D[] hitColliders = Physics2D.OverlapBoxAll(gameObject.transform.position, transform.localScale * 2, 0f, layerZone);
-        int i = 0;
-        Debug.Log(hitColliders.Length);
-        //Check when there is a new collider coming into contact with the box
-        while (i < hitColliders.Length)
-        {
-            //Output all of the collider names
-            float random = Random.Range(1, 100);
-            if (random < sickProbabilityInfect)
-            {
-                SelectEffectSick(hitColliders[i].GetComponent<Zone>());
-            }
-            if (random < sickProbabilityMegaSick/2)
-            {
-                GetSick();
-            }
-            Debug.Log("Hit : " + hitColliders[i].name + i);
-            //Increase the number of Colliders in the array
-            i++;
-        }
-    }
-    void SickState()
-    {
         if (contamination >= 100)
         {
             Infect();
@@ -152,22 +122,6 @@ public class Zone : MonoBehaviour
 
     }
 
-    void MegaSickState()
-    {
-        if (contamination >= 100)
-        {
-            MegaInfect();
-            contamination -= sickAmountInfect;
-        }
-        else
-        {
-            if (Time.time > sickNextCheck)
-            {
-                contamination += sickAmount;
-                sickNextCheck = Time.time + sickCadence/2;
-            }
-        }
-    }
     void SelectEffectSick(Zone sick)
     {
         switch (zoneState)
@@ -177,14 +131,69 @@ public class Zone : MonoBehaviour
             case ZoneState.Sick:
                 sick.GetSick();
                 break;
-            case ZoneState.MegaSick:
-                sick.GetMegaSick();
-                break;
             case ZoneState.Canceled:
                 break;
             default:
                 break;
         }
 
+    }
+
+    public void CanceledState()
+    {
+        if (contamination <= 0)
+        {
+            GetClean();
+        }
+        else
+        {
+            if (illumination)
+            {
+                if (Time.time > sickNextCheck)
+                {
+                    contamination -= LightPotence();
+                    sickNextCheck = Time.time + sickCadence;
+                }
+            }
+            else
+            {
+                GetSick();
+            }
+        }
+    }
+
+    public void ReceiveLight()
+    {
+        if(!illumination)
+        {
+            GetLight();
+        }
+    }
+    public void OutEnergyLight() //Se apaga una luz porque se quedo sin energia
+    {
+        Collider2D[] hitColliders = Physics2D.OverlapBoxAll(gameObject.transform.position, transform.localScale * 2, 0f, layerLight);
+        int i = 0;
+        Debug.Log("Cantidad de luces: " + hitColliders.Length);
+        if (hitColliders.Length > 1)
+        {
+            return;
+        }
+        illumination = false;
+    }
+
+    public float LightPotence()
+    {
+        float result = 0f;
+        Collider2D[] hitColliders = Physics2D.OverlapBoxAll(gameObject.transform.position, transform.localScale * 2, 0f, layerLight);
+        int i = 0;
+        Debug.Log("Cantidad de luces: " + hitColliders.Length);
+        if (hitColliders.Length > 0)
+        {
+            for (int a = 0; a < hitColliders.Length; a++)
+            {
+                result += hitColliders[a].GetComponent<LightSource>().potence;
+            }
+        }
+        return result;
     }
 }

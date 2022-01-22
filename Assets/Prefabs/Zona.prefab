@@ -75,15 +75,16 @@ MonoBehaviour:
   layerZone:
     serializedVersion: 2
     m_Bits: 256
+  layerLight:
+    serializedVersion: 2
+    m_Bits: 512
   zoneState: 0
   contamination: 0
   isSick: 0
-  isMegaSick: 0
-  sickCadence: 0.2
-  sickAmount: 3
-  sickAmountInfect: 60
-  sickProbabilityInfect: 10
-  sickProbabilityMegaSick: 0.3
+  sickCadence: 2
+  sickAmount: 8
+  sickAmountInfect: 50
+  sickProbabilityInfect: 5
   illumination: 0
   fogParticle: {fileID: 5503858378607090374}
 --- !u!50 &3727266368782115418
@@ -4836,7 +4837,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 10000
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
