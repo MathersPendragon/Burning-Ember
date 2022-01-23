@@ -82,9 +82,9 @@ MonoBehaviour:
   contamination: 0
   isSick: 0
   sickCadence: 2
-  sickAmount: 8
+  sickAmount: 14
   sickAmountInfect: 50
-  sickProbabilityInfect: 5
+  sickProbabilityInfect: 10
   illumination: 0
   fogParticle: {fileID: 5503858378607090374}
 --- !u!50 &3727266368782115418

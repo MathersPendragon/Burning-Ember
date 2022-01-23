@@ -30,13 +30,13 @@ public class LightSource : MonoBehaviour
         if (Time.time > nextCheck)
         {
             energy -= potence;
-            nextCheck = Time.time + cadence;
             actualZone.ReceiveLight();
             if(energy < 1)
             {
                 energy = 0;
                 OutEnergy();
             }
+            nextCheck = Time.time + cadence;
         }
     }
 
@@ -70,6 +70,7 @@ public class LightSource : MonoBehaviour
     {
         if (collision.GetComponent<Zone>() != null)
         {
+            collision.GetComponent<Zone>().OutEnergyLight();
             actualZone = null;
         }
     }
