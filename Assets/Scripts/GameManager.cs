@@ -4,13 +4,27 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static GameManager Instance;
     //Global Zone
     public float Dificulty = 1f;
+    public Player player;
+    public Inventory Inventory;
 
+    public CanvasManager canvas;
+    private void Awake()
+    {
+        if (!Instance)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame

@@ -6,13 +6,24 @@ public enum InteractionType { Recurso, Objeto, Lampara, Texto }
 public class Interactable : MonoBehaviour
 {
     public InteractionType interactionType = InteractionType.Objeto;
+    public bool barAction = false;
     public string nameAction;
-    public GameObject RecursoObject;
-    public Sprite[] RecursoSprite;
+    public SpriteRenderer spriteRenderer;
+    private BoxCollider2D interactCollider;
+    //Recurso
+    public GameObject[] recursoObjects;
+    public Sprite[] recursoSprites;
+    public Transform[] recursoPositions;
+    public ParticleSystem[] recursoParticles;
+
+    //Objeto
+    public int idObjeto;
+    public int amountObjeto;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        interactCollider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -29,6 +40,25 @@ public class Interactable : MonoBehaviour
                 RecursoAction();
                 break;
             case InteractionType.Objeto:
+                ObjectAction();
+                break;
+            case InteractionType.Lampara:
+                break;
+            case InteractionType.Texto:
+                break;
+            default:
+                break;
+        }
+    }
+
+    public void Effect()
+    {
+        switch (interactionType)
+        {
+            case InteractionType.Recurso:
+                recursoParticles[0].Play();
+                break;
+            case InteractionType.Objeto:
                 break;
             case InteractionType.Lampara:
                 break;
@@ -41,6 +71,20 @@ public class Interactable : MonoBehaviour
 
     public void RecursoAction()
     {
+        interactCollider.enabled = false;
+        spriteRenderer.sprite = recursoSprites[0];
+        GameManager.Instance.canvas.HiddenInteractionBox();
+        for (int i = 0; i < recursoObjects.Length; i++)
+        {
+            Vector2 randomOffset = new Vector2(recursoPositions[0].position.x + Random.Range(-1f, 1f), recursoPositions[0].position.y + Random.Range(-1f, 1f));
+            GameObject recurso = Instantiate(recursoObjects[i], randomOffset, transform.rotation) as GameObject;
+        }
+    }
 
+    public void ObjectAction()
+    {
+        GameManager.Instance.canvas.HiddenInteractionBox();
+        GameManager.Instance.Inventory.ItemAdd(idObjeto, amountObjeto);
+        Destroy(transform.root.gameObject);
     }
 }

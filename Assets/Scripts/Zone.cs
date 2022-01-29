@@ -20,6 +20,8 @@ public class Zone : MonoBehaviour
     public bool illumination; //si hay iluminacion en la zona
 
     public ParticleSystem fogParticle;
+    public Color lightColor;
+    public Color fogColor;
     void Start()
     {
         
@@ -55,7 +57,7 @@ public class Zone : MonoBehaviour
         isSick = false;
         zoneState = ZoneState.Clean;
         contamination = 0;
-        Debug.Log(transform.name + " SE LIMPIO");
+        //Debug.Log(transform.name + " SE LIMPIO");
         fogParticle.Stop();
     }
     public void GetLight()
@@ -66,6 +68,8 @@ public class Zone : MonoBehaviour
         }
         isSick = false;
         illumination = true;
+        var main = fogParticle.main;
+        main.startColor = lightColor;
     }
     public void GetSick() //Se enferma por una zona vecina
     {
@@ -74,7 +78,9 @@ public class Zone : MonoBehaviour
             return; //Corta la funcion aqui
         }
         fogParticle.Play();
-        Debug.Log(transform.name + " se enfermo");
+        var main = fogParticle.main;
+        main.startColor = fogColor;
+        //Debug.Log(transform.name + " se enfermo");
         contamination = 30;
         isSick = true; //Enferma modo on
     }
@@ -83,7 +89,7 @@ public class Zone : MonoBehaviour
     {
         Collider2D[] hitColliders = Physics2D.OverlapBoxAll(gameObject.transform.position, transform.localScale * 2, 0f, layerZone);
         int i = 0;
-        Debug.Log(hitColliders.Length);
+        //Debug.Log(hitColliders.Length);
         //Check when there is a new collider coming into contact with the box
         while (i < hitColliders.Length)
         {
@@ -173,7 +179,7 @@ public class Zone : MonoBehaviour
     {
         Collider2D[] hitColliders = Physics2D.OverlapBoxAll(gameObject.transform.position, transform.localScale * 2, 0f, layerLight);
         int i = 0;
-        Debug.Log("Cantidad de luces: " + hitColliders.Length);
+        //Debug.Log("Cantidad de luces: " + hitColliders.Length);
         if (hitColliders.Length > 1)
         {
             return;
@@ -186,7 +192,7 @@ public class Zone : MonoBehaviour
         float result = 0f;
         Collider2D[] hitColliders = Physics2D.OverlapBoxAll(gameObject.transform.position, transform.localScale * 2, 0f, layerLight);
         int i = 0;
-        Debug.Log("Cantidad de luces: " + hitColliders.Length);
+        //Debug.Log("Cantidad de luces: " + hitColliders.Length);
         if (hitColliders.Length > 0)
         {
             for (int a = 0; a < hitColliders.Length; a++)

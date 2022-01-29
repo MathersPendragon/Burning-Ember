@@ -20,7 +20,7 @@ public class LightSource : MonoBehaviour
     {
         if(actualZone != null)
         {
-            if(actualZone.zoneState != ZoneState.Clean && actualZone.zoneState != ZoneState.Canceled)
+            if(actualZone.zoneState != ZoneState.Clean)// && actualZone.zoneState != ZoneState.Canceled)
             ZoneDetectedState();
         }
     }
