@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     //Global Zone
     public float Dificulty = 1f;
     public Player player;
+    public Wife wife;
     public Inventory Inventory;
 
     public CanvasManager canvas;

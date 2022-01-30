@@ -10,25 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: DayNight
+  m_Name: LightingPreset
   m_EditorClassIdentifier: Assembly-CSharp::LightingPreset
   AmbientColor:
     serializedVersion: 2
-    key0: {r: 0.13182801, g: 0.088777125, b: 0.5377358, a: 1}
-    key1: {r: 0.16078432, g: 0.105882354, b: 0.6784314, a: 1}
-    key2: {r: 0.8018868, g: 0.3225659, b: 0.07943218, a: 0}
-    key3: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 0}
+    key0: {r: 0.022561418, g: 0.08079913, b: 0.3679245, a: 1}
+    key1: {r: 0.023529412, g: 0.08235294, b: 0.36862746, a: 1}
+    key2: {r: 1, g: 0.5347392, b: 0.3820755, a: 0}
+    key3: {r: 1, g: 1, b: 1, a: 0}
     key4: {r: 1, g: 1, b: 1, a: 0}
-    key5: {r: 1, g: 0.35442418, b: 0, a: 0}
-    key6: {r: 0.16078432, g: 0.105882354, b: 0.6784314, a: 0}
-    key7: {r: 0.13333334, g: 0.09019608, b: 0.5372549, a: 0}
+    key5: {r: 1, g: 0.5372549, b: 0.38431373, a: 0}
+    key6: {r: 0.023529412, g: 0.08235294, b: 0.36862746, a: 0}
+    key7: {r: 0.023529412, g: 0.08235294, b: 0.36862746, a: 0}
     ctime0: 0
-    ctime1: 24865
-    ctime2: 27949
-    ctime3: 30455
-    ctime4: 40670
-    ctime5: 43176
-    ctime6: 45489
+    ctime1: 21781
+    ctime2: 24865
+    ctime3: 28142
+    ctime4: 47031
+    ctime5: 50501
+    ctime6: 53777
     ctime7: 65535
     atime0: 0
     atime1: 65535

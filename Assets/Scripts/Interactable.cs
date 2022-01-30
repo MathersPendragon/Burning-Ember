@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum InteractionType { Recurso, Objeto, Lampara, Texto }
+public enum InteractionType { Recurso, Objeto, Lampara, Curacion }
 public class Interactable : MonoBehaviour
 {
     public InteractionType interactionType = InteractionType.Objeto;
     public bool barAction = false;
+    public float barMaxValue = 100;
     public string nameAction;
     public SpriteRenderer spriteRenderer;
     private BoxCollider2D interactCollider;
@@ -44,7 +45,8 @@ public class Interactable : MonoBehaviour
                 break;
             case InteractionType.Lampara:
                 break;
-            case InteractionType.Texto:
+            case InteractionType.Curacion:
+                CuracionAction();
                 break;
             default:
                 break;
@@ -62,7 +64,7 @@ public class Interactable : MonoBehaviour
                 break;
             case InteractionType.Lampara:
                 break;
-            case InteractionType.Texto:
+            case InteractionType.Curacion:
                 break;
             default:
                 break;
@@ -86,5 +88,12 @@ public class Interactable : MonoBehaviour
         GameManager.Instance.canvas.HiddenInteractionBox();
         GameManager.Instance.Inventory.ItemAdd(idObjeto, amountObjeto);
         Destroy(transform.root.gameObject);
+    }
+
+    public void CuracionAction()
+    {
+        recursoParticles[0].Play();
+        GameManager.Instance.Inventory.ItemAdd(5, -1);
+        GameManager.Instance.wife.SetHealth(10);
     }
 }

@@ -1,0 +1,1544 @@
+fileFormatVersion: 2
+guid: c9b1337679941904cbc35f79c9a24b24
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 157492872832884875
+    second: Atlas ult Agus_0
+  - first:
+      213: 3339544853000401912
+    second: Atlas ult Agus_1
+  - first:
+      213: -1735537507968084752
+    second: Atlas ult Agus_2
+  - first:
+      213: 4943548744534595800
+    second: Atlas ult Agus_3
+  - first:
+      213: -3240975558365033659
+    second: Atlas ult Agus_4
+  - first:
+      213: -6218528356925351063
+    second: Atlas ult Agus_5
+  - first:
+      213: -573586001601307556
+    second: Atlas ult Agus_6
+  - first:
+      213: -8164907773411969888
+    second: Atlas ult Agus_7
+  - first:
+      213: 7250437986858062993
+    second: Atlas ult Agus_8
+  - first:
+      213: 5665504379815377062
+    second: Atlas ult Agus_9
+  - first:
+      213: 5042595564479596361
+    second: Atlas ult Agus_10
+  - first:
+      213: 6281702910266944955
+    second: Atlas ult Agus_11
+  - first:
+      213: -1810066536529561258
+    second: Atlas ult Agus_12
+  - first:
+      213: 1688166847698641985
+    second: Atlas ult Agus_13
+  - first:
+      213: -5877603863332316849
+    second: Atlas ult Agus_14
+  - first:
+      213: 1975267509341481940
+    second: Atlas ult Agus_15
+  - first:
+      213: -709269317861193076
+    second: Atlas ult Agus_16
+  - first:
+      213: 1451542259673109009
+    second: Atlas ult Agus_17
+  - first:
+      213: -2691934526679797245
+    second: Atlas ult Agus_18
+  - first:
+      213: -1566139444089623138
+    second: Atlas ult Agus_19
+  - first:
+      213: -9189090797842232226
+    second: Atlas ult Agus_20
+  - first:
+      213: 5153223270832635897
+    second: Atlas ult Agus_21
+  - first:
+      213: 1955197171306485678
+    second: Atlas ult Agus_22
+  - first:
+      213: 6137851847591617588
+    second: Atlas ult Agus_23
+  - first:
+      213: -7535317627219566729
+    second: Atlas ult Agus_24
+  - first:
+      213: -2582378041127928536
+    second: Atlas ult Agus_25
+  - first:
+      213: 7579417159468049811
+    second: Atlas ult Agus_26
+  - first:
+      213: -1434368015827279000
+    second: Atlas ult Agus_27
+  - first:
+      213: -6446210501317032347
+    second: Atlas ult Agus_28
+  - first:
+      213: 8267104247515758916
+    second: Atlas ult Agus_29
+  - first:
+      213: -6574123206389218439
+    second: Atlas ult Agus_30
+  - first:
+      213: -7610130727010882887
+    second: Atlas ult Agus_31
+  - first:
+      213: 2752674353771445740
+    second: Atlas ult Agus_32
+  - first:
+      213: -1909195504467166774
+    second: Atlas ult Agus_33
+  - first:
+      213: 4832268048908023091
+    second: Atlas ult Agus_34
+  - first:
+      213: -1016894937504205943
+    second: Atlas ult Agus_35
+  - first:
+      213: -5576983812929085645
+    second: Atlas ult Agus_36
+  - first:
+      213: 902445703015149569
+    second: Atlas ult Agus_37
+  - first:
+      213: -4338262220950253117
+    second: Atlas ult Agus_38
+  - first:
+      213: 7767789213189209486
+    second: Atlas ult Agus_39
+  - first:
+      213: 6529507407860114135
+    second: Atlas ult Agus_40
+  - first:
+      213: -1580450317058950536
+    second: Atlas ult Agus_41
+  - first:
+      213: 4285740554722871817
+    second: Atlas ult Agus_42
+  - first:
+      213: 6978802600820977958
+    second: Atlas ult Agus_43
+  - first:
+      213: -6823746764305045606
+    second: Atlas ult Agus_44
+  - first:
+      213: 3431591733788514137
+    second: Atlas ult Agus_45
+  - first:
+      213: -7212985647328709733
+    second: Atlas ult Agus_46
+  - first:
+      213: -4376579408719001370
+    second: Atlas ult Agus_47
+  - first:
+      213: 2529158360763421050
+    second: Atlas ult Agus_48
+  - first:
+      213: -7244873143413758613
+    second: Atlas ult Agus_49
+  - first:
+      213: 844206844297829433
+    second: Atlas ult Agus_50
+  - first:
+      213: 8267566762240374670
+    second: Atlas ult Agus_51
+  - first:
+      213: 645306192201418825
+    second: Atlas ult Agus_52
+  - first:
+      213: -3022326725549881939
+    second: Atlas ult Agus_53
+  - first:
+      213: 3912867767734518460
+    second: Atlas ult Agus_54
+  - first:
+      213: 1594454074505411876
+    second: Atlas ult Agus_55
+  - first:
+      213: -4688184677772663530
+    second: Atlas ult Agus_56
+  - first:
+      213: -1557986845024072418
+    second: Atlas ult Agus_57
+  - first:
+      213: -3287250824894242582
+    second: Atlas ult Agus_58
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atlas ult Agus_0
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 207
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b802cd3fee68f2200800000000000000
+      internalID: 157492872832884875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 207
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3b292a952785e20800000000000000
+      internalID: 3339544853000401912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_2
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 207
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4123fe4d12ae7e0800000000000000
+      internalID: -1735537507968084752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 207
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d810df14630b9440800000000000000
+      internalID: 4943548744534595800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_4
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 189
+        width: 20
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.23}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bcdeda6edb503d0800000000000000
+      internalID: -3240975558365033659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_5
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 150
+        width: 58
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b55c3186953b9a0800000000000000
+      internalID: -6218528356925351063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_6
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 186
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cda6e02963a08f0800000000000000
+      internalID: -573586001601307556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_7
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 148
+        width: 102
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a434fdb3ab60be80800000000000000
+      internalID: -8164907773411969888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_8
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 148
+        width: 132
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5, y: 0.68}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1945ca04feabe9460800000000000000
+      internalID: 7250437986858062993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_9
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 127
+        width: 24
+        height: 93
+      alignment: 9
+      pivot: {x: 0.5, y: 0.31}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8b050673aef9e40800000000000000
+      internalID: 5665504379815377062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_10
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 118
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94744c6f2f5eaf540800000000000000
+      internalID: 5042595564479596361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_11
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 141
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdaff6d3871d2750800000000000000
+      internalID: 6281702910266944955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_12
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 158
+        width: 42
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659755e331a51e6e0800000000000000
+      internalID: -1810066536529561258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 189
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1442baebdc29d6710800000000000000
+      internalID: 1688166847698641985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_14
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 187
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f491d9b5d6e8e6ea0800000000000000
+      internalID: -5877603863332316849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_15
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 189
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db6ba6955f896b10800000000000000
+      internalID: 1975267509341481940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 184
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8accc2305b2826f0800000000000000
+      internalID: -709269317861193076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_17
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 184
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112984c9ef9e42410800000000000000
+      internalID: 1451542259673109009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 190
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30234aa7fc354aad0800000000000000
+      internalID: -2691934526679797245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_19
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 191
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d6f4e2974f34ae0800000000000000
+      internalID: -1566139444089623138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_20
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 191
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c8dc1fa9ac97080800000000000000
+      internalID: -9189090797842232226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_21
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 191
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff714a034de38740800000000000000
+      internalID: 5153223270832635897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_22
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 191
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7529dd771422b10800000000000000
+      internalID: 1955197171306485678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_23
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 190
+        width: 17
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4346ca35cb70e2550800000000000000
+      internalID: 6137851847591617588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_24
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 191
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f96d7ba8c2d6790800000000000000
+      internalID: -7535317627219566729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_25
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 191
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82dfcc68adc892cd0800000000000000
+      internalID: -2582378041127928536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 145
+        width: 94
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395e792cfbf7f2960800000000000000
+      internalID: 7579417159468049811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_27
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 175
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863ee63a3e9181ce0800000000000000
+      internalID: -1434368015827279000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_28
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 175
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5660b99d3b57a86a0800000000000000
+      internalID: -6446210501317032347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_29
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 143
+        width: 18
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441cc4a1387aab270800000000000000
+      internalID: 8267104247515758916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_30
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 159
+        width: 18
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.59}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973c48566c504c4a0800000000000000
+      internalID: -6574123206389218439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_31
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 172
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba2b3a8c62636690800000000000000
+      internalID: -7610130727010882887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_32
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 168
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedffde8db6733620800000000000000
+      internalID: 2752674353771445740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_33
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 142
+        width: 12
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac93675ddcc2185e0800000000000000
+      internalID: -1909195504467166774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_34
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 136
+        width: 50
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335f1a2203aaf0340800000000000000
+      internalID: 4832268048908023091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_35
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 161
+        width: 9
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9833b2c217343e1f0800000000000000
+      internalID: -1016894937504205943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_36
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 161
+        width: 14
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.22}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f124035c29a92b0800000000000000
+      internalID: -5576983812929085645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_37
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 161
+        width: 11
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100bb45e591268c00800000000000000
+      internalID: 902445703015149569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_38
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 159
+        width: 35
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c153c1ce756bc3c0800000000000000
+      internalID: -4338262220950253117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 156
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8df046422bbccb60800000000000000
+      internalID: 7767789213189209486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_40
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 160
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2a8c384687d9a50800000000000000
+      internalID: 6529507407860114135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_41
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 158
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a3c8a6fcc111ae0800000000000000
+      internalID: -1580450317058950536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_42
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 158
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a0eb3e3520a7b30800000000000000
+      internalID: 4285740554722871817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_43
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 136
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621b18b7dffa9d060800000000000000
+      internalID: 6978802600820977958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_44
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 137
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97606cb87e2d41a0800000000000000
+      internalID: -6823746764305045606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_45
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 137
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95791a220867f9f20800000000000000
+      internalID: 3431591733788514137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_46
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 137
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b933bf015c356eb90800000000000000
+      internalID: -7212985647328709733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_47
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 129
+        width: 47
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8c30447344343c0800000000000000
+      internalID: -4376579408719001370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_48
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 92
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71530a0120691320800000000000000
+      internalID: 2529158360763421050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_49
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 92
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b652e04d24a057b90800000000000000
+      internalID: -7244873143413758613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_50
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 92
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c535fe6a937bb00800000000000000
+      internalID: 844206844297829433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_51
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 92
+        width: 19
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87f924ba2c4cb270800000000000000
+      internalID: 8267566762240374670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_52
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 92
+        width: 20
+        height: 15
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9488685109694f800800000000000000
+      internalID: 645306192201418825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_53
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 90
+        width: 56
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da50e682bd98e06d0800000000000000
+      internalID: -3022326725549881939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_54
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 16
+        width: 48
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.83}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb244e4e08c4d4630800000000000000
+      internalID: 3912867767734518460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_55
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 90
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42db1917883a02610800000000000000
+      internalID: 1594454074505411876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_56
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 43
+        width: 46
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6156ee7efd830feb0800000000000000
+      internalID: -4688184677772663530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_57
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 65
+        width: 50
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dcb91183be06ae0800000000000000
+      internalID: -1557986845024072418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas ult Agus_58
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 165
+        width: 24
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0a1969ac65162d0800000000000000
+      internalID: -3287250824894242582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

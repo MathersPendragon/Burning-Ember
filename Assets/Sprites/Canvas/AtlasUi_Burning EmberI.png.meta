@@ -1,0 +1,1424 @@
+fileFormatVersion: 2
+guid: be7c967433e807d45925e04778e93dd9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7491715393698510045
+    second: AtlasUi_Burning EmberI_0
+  - first:
+      213: 1246365638320719727
+    second: AtlasUi_Burning EmberI_1
+  - first:
+      213: -355324976873016259
+    second: AtlasUi_Burning EmberI_2
+  - first:
+      213: 2001763519782093374
+    second: AtlasUi_Burning EmberI_3
+  - first:
+      213: 2154237424056245637
+    second: AtlasUi_Burning EmberI_4
+  - first:
+      213: -3482324616482623213
+    second: AtlasUi_Burning EmberI_5
+  - first:
+      213: -8069852804181245332
+    second: AtlasUi_Burning EmberI_6
+  - first:
+      213: 4511694499154277551
+    second: AtlasUi_Burning EmberI_7
+  - first:
+      213: -6180024821850187309
+    second: AtlasUi_Burning EmberI_8
+  - first:
+      213: 3274274441802731693
+    second: AtlasUi_Burning EmberI_9
+  - first:
+      213: -8147260364537874240
+    second: AtlasUi_Burning EmberI_10
+  - first:
+      213: -5070648791545361604
+    second: AtlasUi_Burning EmberI_11
+  - first:
+      213: 5646000889041614460
+    second: AtlasUi_Burning EmberI_12
+  - first:
+      213: 53070526124693414
+    second: AtlasUi_Burning EmberI_13
+  - first:
+      213: -6516812135831549237
+    second: AtlasUi_Burning EmberI_14
+  - first:
+      213: -6590740816569594280
+    second: AtlasUi_Burning EmberI_15
+  - first:
+      213: -2009625856264206269
+    second: AtlasUi_Burning EmberI_16
+  - first:
+      213: -3970058512483487904
+    second: AtlasUi_Burning EmberI_17
+  - first:
+      213: 603780604987465605
+    second: AtlasUi_Burning EmberI_18
+  - first:
+      213: -48692009203830526
+    second: AtlasUi_Burning EmberI_19
+  - first:
+      213: 1067475683713048182
+    second: AtlasUi_Burning EmberI_20
+  - first:
+      213: 7735380971933125437
+    second: AtlasUi_Burning EmberI_21
+  - first:
+      213: -2672446131208039776
+    second: AtlasUi_Burning EmberI_22
+  - first:
+      213: 6370522564927731483
+    second: AtlasUi_Burning EmberI_23
+  - first:
+      213: -3715332236331723469
+    second: AtlasUi_Burning EmberI_24
+  - first:
+      213: -7333719380926456481
+    second: AtlasUi_Burning EmberI_25
+  - first:
+      213: 3257526408001132801
+    second: AtlasUi_Burning EmberI_26
+  - first:
+      213: 836397264292017662
+    second: AtlasUi_Burning EmberI_27
+  - first:
+      213: 4451395562870267392
+    second: AtlasUi_Burning EmberI_28
+  - first:
+      213: 3807752465102130269
+    second: AtlasUi_Burning EmberI_29
+  - first:
+      213: 5077601956452318855
+    second: AtlasUi_Burning EmberI_30
+  - first:
+      213: -5674901657065634920
+    second: AtlasUi_Burning EmberI_31
+  - first:
+      213: 6487082372373964399
+    second: AtlasUi_Burning EmberI_32
+  - first:
+      213: 161783688196496266
+    second: AtlasUi_Burning EmberI_33
+  - first:
+      213: 5964181602133653721
+    second: AtlasUi_Burning EmberI_34
+  - first:
+      213: 1464240813687874028
+    second: AtlasUi_Burning EmberI_35
+  - first:
+      213: 7882194129680667401
+    second: AtlasUi_Burning EmberI_36
+  - first:
+      213: 9038600114700879128
+    second: AtlasUi_Burning EmberI_37
+  - first:
+      213: -4410019188433725589
+    second: AtlasUi_Burning EmberI_38
+  - first:
+      213: -335333716647286661
+    second: AtlasUi_Burning EmberI_39
+  - first:
+      213: -8632467768430212847
+    second: AtlasUi_Burning EmberI_40
+  - first:
+      213: -8882845902743721531
+    second: AtlasUi_Burning EmberI_41
+  - first:
+      213: -1109886555356342935
+    second: AtlasUi_Burning EmberI_42
+  - first:
+      213: 4647208170203406883
+    second: AtlasUi_Burning EmberI_43
+  - first:
+      213: 1372406490438309078
+    second: AtlasUi_Burning EmberI_44
+  - first:
+      213: -7108112578746796128
+    second: AtlasUi_Burning EmberI_45
+  - first:
+      213: -1905618416440420455
+    second: AtlasUi_Burning EmberI_46
+  - first:
+      213: 7643546573563057468
+    second: AtlasUi_Burning EmberI_47
+  - first:
+      213: -7693684923436517605
+    second: AtlasUi_Burning EmberI_48
+  - first:
+      213: 7241891724061701207
+    second: AtlasUi_Burning EmberI_49
+  - first:
+      213: -5679047185278398175
+    second: AtlasUi_Burning EmberI_50
+  - first:
+      213: 410042475645179616
+    second: AtlasUi_Burning EmberI_51
+  - first:
+      213: -6720279021788911356
+    second: AtlasUi_Burning EmberI_52
+  - first:
+      213: 7677177764345911571
+    second: AtlasUi_Burning EmberI_53
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 436
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4b9bf257be7f760800000000000000
+      internalID: 7491715393698510045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 437
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f670c5cc1fafb4110800000000000000
+      internalID: 1246365638320719727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 437
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34f8ade0d1a11bf0800000000000000
+      internalID: -355324976873016259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_3
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 447
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3282f0c051b7cb10800000000000000
+      internalID: 2001763519782093374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 438
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d99b6068365ed10800000000000000
+      internalID: 2154237424056245637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_5
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 435
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31174f1263c4cafc0800000000000000
+      internalID: -3482324616482623213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_6
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 434
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62461961af120090800000000000000
+      internalID: -8069852804181245332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 428
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4bc253e32cc9e30800000000000000
+      internalID: 4511694499154277551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 335
+        width: 89
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9d58eea242c3aa0800000000000000
+      internalID: -6180024821850187309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_9
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 437
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0dac8c14f807d20800000000000000
+      internalID: 3274274441802731693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8b91f4ddd1fee80800000000000000
+      internalID: -8147260364537874240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bcc2f1acf61a9b0800000000000000
+      internalID: -5070648791545361604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 377
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c767dd015ef9a5e40800000000000000
+      internalID: 5646000889041614460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_13
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a794b1cc5b8cb000800000000000000
+      internalID: 53070526124693414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_14
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca4ec7d3e1af85a0800000000000000
+      internalID: -6516812135831549237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_15
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e83b5852cf884a0800000000000000
+      internalID: -6590740816569594280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_16
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 374
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3488ee16eef5c14e0800000000000000
+      internalID: -2009625856264206269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_17
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 362
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fe7e131d487e8c0800000000000000
+      internalID: -3970058512483487904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_18
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 362
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f5c82e24f016800800000000000000
+      internalID: 603780604987465605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_19
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 329
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201710820e2035ff0800000000000000
+      internalID: -48692009203830526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_20
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 328
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e55168a7f60de00800000000000000
+      internalID: 1067475683713048182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_21
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 329
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bc36a9208995b60800000000000000
+      internalID: 7735380971933125437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_22
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 331
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a25af3276099ead0800000000000000
+      internalID: -2672446131208039776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_23
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 328
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17b0243584a86850800000000000000
+      internalID: 6370522564927731483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_24
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 325
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335d3e6040d707cc0800000000000000
+      internalID: -3715332236331723469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_25
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 322
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d1b792415693a90800000000000000
+      internalID: -7333719380926456481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_26
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 310
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1099c5b420f053d20800000000000000
+      internalID: 3257526408001132801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_27
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 310
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5fb3561ea7b9b00800000000000000
+      internalID: 836397264292017662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_28
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 198
+        width: 89
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ed1af0ea886cd30800000000000000
+      internalID: 4451395562870267392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_29
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 267
+        width: 226
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cc70351bad7d430800000000000000
+      internalID: 3807752465102130269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_30
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 271
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e3b2db314477640800000000000000
+      internalID: 5077601956452318855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_31
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 259
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893c3538203be31b0800000000000000
+      internalID: -5674901657065634920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_32
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 259
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f666c023c0fb60a50800000000000000
+      internalID: 6487082372373964399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_33
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b97614865ce3200800000000000000
+      internalID: 161783688196496266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_34
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8b81b419705c250800000000000000
+      internalID: 5964181602133653721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 220
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1ae7d1347025410800000000000000
+      internalID: 1464240813687874028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_36
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903194e9ccd236d60800000000000000
+      internalID: 7882194129680667401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_37
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8150d8f6aee8f6d70800000000000000
+      internalID: 9038600114700879128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_38
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 220
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6750c4d9e67cc2c0800000000000000
+      internalID: -4410019188433725589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_39
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 223
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78e60ae2c7a85bf0800000000000000
+      internalID: -335333716647286661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_40
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 211
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11945b72d40533880800000000000000
+      internalID: -8632467768430212847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_41
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 212
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c92d6cf6bac9b480800000000000000
+      internalID: -8882845902743721531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_42
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 163
+        width: 226
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965d00fee04e890f0800000000000000
+      internalID: -1109886555356342935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_43
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 176
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322644675333e7040800000000000000
+      internalID: 4647208170203406883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_44
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 162
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d414068e64cb0310800000000000000
+      internalID: 1372406490438309078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_45
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 162
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7bf402549ea5d90800000000000000
+      internalID: -7108112578746796128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_46
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 118
+        width: 77
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99750aa8522ed85e0800000000000000
+      internalID: -1905618416440420455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_47
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 48
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3551658c15531a60800000000000000
+      internalID: 7643546573563057468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_48
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 48
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17b9c4335a8a3590800000000000000
+      internalID: -7693684923436517605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_49
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 48
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754f982672e508460800000000000000
+      internalID: 7241891724061701207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_50
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 82
+        width: 136
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1219cc28ca8ff21b0800000000000000
+      internalID: -5679047185278398175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_51
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 59
+        width: 136
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e617a78573c0b500800000000000000
+      internalID: 410042475645179616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_52
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 37
+        width: 136
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40923c2d5d5ccb2a0800000000000000
+      internalID: -6720279021788911356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasUi_Burning EmberI_53
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 10
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3199d515080da8a60800000000000000
+      internalID: 7677177764345911571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

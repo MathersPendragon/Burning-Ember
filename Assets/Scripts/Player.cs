@@ -6,15 +6,23 @@ using UnityEngine;
 public enum PlayerState { Idle, Move, Attack }
 public class Player : MonoBehaviour
 {
+    //STATE
+    public int health = 100;
+    public bool damage = false;
+    public float healthCadence;
+    float nextCheck;
+
+
+    //MOVE
     public PlayerState playerState;
     public float moveSpeed = 5f;
-    public Rigidbody2D rb2d;
+    private Rigidbody2D rb2d;
     Vector2 movement;
     Vector2 animDirection;
-    public Animator anim;
+    private Animator anim;
     private bool isAttack = false;
     private bool isTarget = false;
-    public Vector2 targetDirection;
+    private Vector2 targetDirection;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +43,21 @@ public class Player : MonoBehaviour
             playerState = PlayerState.Attack;
         }
 
+        if(damage)
+        {
+            if (Time.time > nextCheck)
+            {
+                SetHealth(-1);
+                nextCheck = Time.time + healthCadence;
+            }
+        }else
+        {
+            if (Time.time > nextCheck)
+            {
+                SetHealth(1);
+                nextCheck = Time.time + healthCadence/2;
+            }
+        }
 
         switch (playerState)
         {
@@ -110,5 +133,48 @@ public class Player : MonoBehaviour
     public void SetTarget(bool value)
     {
         isTarget = value;
+    }
+
+    void SetHealth(int value)
+    {
+        health += value;
+
+        if(health > 99)
+        {
+            health = 100;
+        }
+
+        if(health < 1)
+        {
+            Debug.Log("GAME OVER");
+        }
+
+        GameManager.Instance.canvas.UpdateHealth(health);
+    }
+
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.GetComponent<Zone>() != null)
+        {
+            if (collision.GetComponent<Zone>().zoneState != ZoneState.Clean)
+            {
+                damage = true;
+            }
+            else
+            {
+                damage = false;
+            }
+        }else
+        {
+            damage = false;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.GetComponent<Zone>() != null)
+        {
+            damage = false;
+        }
     }
 }

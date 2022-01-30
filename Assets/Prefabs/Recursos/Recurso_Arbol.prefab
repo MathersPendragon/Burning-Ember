@@ -77,6 +77,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 1
   barAction: 0
+  barMaxValue: 100
   nameAction: Recoger
   spriteRenderer: {fileID: 6896942352646894949}
   recursoObjects:
@@ -106,7 +107,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.07, y: 0.71}
+  m_Offset: {x: 0.0031476617, y: -0.0023944974}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -117,7 +118,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.45, y: 1.48}
+  m_Size: {x: 0.59629524, y: 0.5004575}
   m_EdgeRadius: 0
 --- !u!1 &6896942352646894946
 GameObject:
@@ -192,7 +193,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a42b79d8ca84bde48a6a860d0f9aefb3, type: 3}
+  m_Sprite: {fileID: 1164017210245341653, guid: 99d5fbc1ac3f3ca4598baf0b8db2d3a4,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -229,6 +231,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0031066686, y: 0.01}
+  m_Offset: {x: 0.018761218, y: -0.086163536}
   serializedVersion: 2
-  m_Radius: 0.15
+  m_Radius: 0.1634181

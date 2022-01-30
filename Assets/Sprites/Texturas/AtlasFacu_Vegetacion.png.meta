@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: f7e00519186ead04da6068b019fccb90
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1032873174484988800
+    second: AtlasFacu_Vegetacion_0
+  - first:
+      213: 2353618075446606977
+    second: AtlasFacu_Vegetacion_1
+  - first:
+      213: 4885263831357303199
+    second: AtlasFacu_Vegetacion_2
+  - first:
+      213: 3573090491695794171
+    second: AtlasFacu_Vegetacion_3
+  - first:
+      213: 7220843461399069681
+    second: AtlasFacu_Vegetacion_4
+  - first:
+      213: 8527059984809240525
+    second: AtlasFacu_Vegetacion_5
+  - first:
+      213: -3212597114830516614
+    second: AtlasFacu_Vegetacion_6
+  - first:
+      213: 751312069435046746
+    second: AtlasFacu_Vegetacion_7
+  - first:
+      213: 7532660443564975548
+    second: AtlasFacu_Vegetacion_8
+  - first:
+      213: 4858686124895765482
+    second: AtlasFacu_Vegetacion_9
+  - first:
+      213: 1874130314338697575
+    second: AtlasFacu_Vegetacion_10
+  - first:
+      213: 8073534369732738518
+    second: AtlasFacu_Vegetacion_11
+  - first:
+      213: 704789706675987979
+    second: AtlasFacu_Vegetacion_12
+  - first:
+      213: 5267649263099996642
+    second: AtlasFacu_Vegetacion_13
+  - first:
+      213: 7642383002947785078
+    second: AtlasFacu_Vegetacion_14
+  - first:
+      213: 8946560873827680393
+    second: AtlasFacu_Vegetacion_15
+  - first:
+      213: -7282629859663575825
+    second: AtlasFacu_Vegetacion_16
+  - first:
+      213: 5257001400681328253
+    second: AtlasFacu_Vegetacion_17
+  - first:
+      213: -1891326530623698102
+    second: AtlasFacu_Vegetacion_18
+  - first:
+      213: 3748129108273135941
+    second: AtlasFacu_Vegetacion_19
+  - first:
+      213: -4188203969249416893
+    second: AtlasFacu_Vegetacion_20
+  - first:
+      213: 4776994823212753582
+    second: AtlasFacu_Vegetacion_21
+  - first:
+      213: 7162789851530526778
+    second: AtlasFacu_Vegetacion_22
+  - first:
+      213: -9103998871086464645
+    second: AtlasFacu_Vegetacion_23
+  - first:
+      213: -1831181073400344860
+    second: AtlasFacu_Vegetacion_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 355
+        width: 116
+        height: 175
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08335370ea0855e00800000000000000
+      internalID: 1032873174484988800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 358
+        width: 148
+        height: 203
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cfeeb6b2bb9a020800000000000000
+      internalID: 2353618075446606977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 135
+        height: 299
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99ad164291fbc340800000000000000
+      internalID: 4885263831357303199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_3
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 344
+        width: 216
+        height: 322
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf78ad30fda269130800000000000000
+      internalID: 3573090491695794171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_4
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 345
+        width: 182
+        height: 232
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3c467ded6953460800000000000000
+      internalID: 7220843461399069681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_5
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 345
+        width: 116
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7a00db0e3365670800000000000000
+      internalID: 8527059984809240525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_6
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 339
+        width: 132
+        height: 295
+      alignment: 9
+      pivot: {x: 0.5, y: 0.04}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e0514f1ff8a63d0800000000000000
+      internalID: -3212597114830516614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_7
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 326
+        width: 155
+        height: 249
+      alignment: 9
+      pivot: {x: 0.5, y: 0.08}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bb326b8523d6a00800000000000000
+      internalID: 751312069435046746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_8
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 333
+        width: 171
+        height: 251
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5a35083c2698860800000000000000
+      internalID: 7532660443564975548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_9
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 220
+        width: 56
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5892121, y: 0.2807746}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae30885c9458d6340800000000000000
+      internalID: 4858686124895765482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 208
+        width: 76
+        height: 58
+      alignment: 9
+      pivot: {x: 0.36966163, y: 0.2800001}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76103f0679f320a10800000000000000
+      internalID: 1874130314338697575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_11
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 202
+        width: 66
+        height: 51
+      alignment: 9
+      pivot: {x: 0.46788856, y: 0.2936533}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddb3dddbb4fa0070800000000000000
+      internalID: 8073534369732738518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_12
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 197
+        width: 82
+        height: 50
+      alignment: 9
+      pivot: {x: 0.53721356, y: 0.26157105}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0626cb018ae7c900800000000000000
+      internalID: 704789706675987979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_13
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 203
+        width: 59
+        height: 43
+      alignment: 9
+      pivot: {x: 0.64404297, y: 0.43209094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e96c6878137a1940800000000000000
+      internalID: 5267649263099996642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_14
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 204
+        width: 31
+        height: 33
+      alignment: 9
+      pivot: {x: 0.51582974, y: 0.226501}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6719f20a9d23f0a60800000000000000
+      internalID: 7642383002947785078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_15
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 199
+        width: 34
+        height: 35
+      alignment: 9
+      pivot: {x: 0.6756987, y: 0.33334526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98048edb6b1982c70800000000000000
+      internalID: 8946560873827680393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_16
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 186
+        width: 79
+        height: 51
+      alignment: 9
+      pivot: {x: 0.46166837, y: 0.39250153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe489184ab6eeea90800000000000000
+      internalID: -7282629859663575825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_17
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 186
+        width: 66
+        height: 56
+      alignment: 9
+      pivot: {x: 0.7368793, y: 0.3141613}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e675fcbee94f840800000000000000
+      internalID: 5257001400681328253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 52
+        width: 107
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b07e38a88a0c5e0800000000000000
+      internalID: -1891326530623698102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_19
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 55
+        width: 178
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5410ce6c097040430800000000000000
+      internalID: 3748129108273135941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_20
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 43
+        width: 127
+        height: 77
+      alignment: 9
+      pivot: {x: 0.5, y: 0.17}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349e1061ea280e5c0800000000000000
+      internalID: -4188203969249416893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_21
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 46
+        width: 162
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.18}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2e97b6b7b4b4240800000000000000
+      internalID: 4776994823212753582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_22
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 44
+        width: 221
+        height: 75
+      alignment: 9
+      pivot: {x: 0.5, y: 0.13}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30004d7b67576360800000000000000
+      internalID: 7162789851530526778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_23
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 41
+        width: 119
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b718555034918a180800000000000000
+      internalID: -9103998871086464645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AtlasFacu_Vegetacion_24
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 43
+        width: 82
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5178059, y: 0.12123102}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eecd8804865696e0800000000000000
+      internalID: -1831181073400344860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

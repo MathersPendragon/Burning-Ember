@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class CanvasManager : MonoBehaviour
 {
@@ -14,6 +15,16 @@ public class CanvasManager : MonoBehaviour
     private Slider boxInteractionSlider;
     private Canvas canvas;
     private Transform playerTransform;
+
+    //Health
+    public Slider healthBar;
+
+    //Wife
+    public Slider healthWifeBar;
+
+    //Pause
+    public GameObject pausePanel;
+    bool pauseOn = false;
 
     //Interaction
     public float workValue = 0;
@@ -29,7 +40,15 @@ public class CanvasManager : MonoBehaviour
     public GameObject overlay;
     public Overlay actualOverlay;
     public Text overlayNameText;
-    public Text overlayText;
+    public Image imageMain;
+    public GameObject panelLampara;
+    public Text textLampara;
+    public Image imageLampara;
+    public GameObject panelRecurso;
+    public Text textRecurso;
+
+    //Reloj
+    public Image relojImage;
 
     GraphicRaycaster m_Raycaster;
     PointerEventData m_PointerEventData;
@@ -37,6 +56,7 @@ public class CanvasManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //Time.timeScale = 1f;
         canvas = GetComponent<Canvas>();
         playerTransform = GameManager.Instance.player.transform;
         boxInteractionText = boxInteraction.transform.GetChild(0).GetChild(0).GetComponent<Text>();
@@ -54,6 +74,38 @@ public class CanvasManager : MonoBehaviour
     {
         SearchUI();
         CheckWork();
+
+
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pauseOn = !pauseOn;
+            pausePanel.SetActive(pauseOn);
+            if (pauseOn)
+            {
+                Time.timeScale = 0f;
+            }
+            else
+            {
+                Time.timeScale = 1f;
+            }
+        }
+
+        if (pauseOn)
+        {
+            if (Input.GetKeyDown(KeyCode.F1))
+            {
+                //SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+            }
+            if (Input.GetKeyDown(KeyCode.F2))
+            {
+                //SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+            }
+            if (Input.GetKeyDown(KeyCode.F3))
+            {
+                Application.Quit();
+            }
+        }
     }
     void LateUpdate()
     {
@@ -97,6 +149,12 @@ public class CanvasManager : MonoBehaviour
     #region InteractionBox
     void ShowInteractionBox(Interactable interactable)
     {
+        if (interactable.interactionType == InteractionType.Curacion && GameManager.Instance.Inventory.itemAmount[5] < 1)
+        {
+            HiddenInteractionBox();
+            return;
+        }
+
         if (actualInteraction == null)
         {
             actualInteraction = interactable;
@@ -185,10 +243,12 @@ public class CanvasManager : MonoBehaviour
         {
             return;
         }
+
         if (actualInteraction.barAction)
         {
             SetWorkValue(Random.Range(4, 10), false);
-            if (workValue > 99)
+            boxInteractionSlider.maxValue = actualInteraction.barMaxValue;
+            if (workValue > actualInteraction.barMaxValue)
             {
                 RewardInteraction();
                 SetWorkValue(0, true);
@@ -231,8 +291,23 @@ public class CanvasManager : MonoBehaviour
 
     void ReadOverlay(Overlay overlay)
     {
+        if(overlay.isLamp)
+        {
+            panelLampara.SetActive(true);
+            panelRecurso.SetActive(false);
+
+            textLampara.text = overlay.ContentText;
+            imageLampara.sprite = overlay.spriteResource;
+
+        }
+        else
+        {
+            panelLampara.SetActive(false);
+            panelRecurso.SetActive(true);
+            textRecurso.text = overlay.ContentText;
+        }
+        imageMain.sprite = overlay.spriteMain;
         overlayNameText.text = overlay.NameText;
-        overlayText.text = overlay.ContentText;
     }
 
     public void UpdateButtonLamp(int id, bool value)
@@ -243,5 +318,55 @@ public class CanvasManager : MonoBehaviour
     public void LampButton(int id)
     {
         GameManager.Instance.Inventory.CreateLamp(id);
+    }
+
+    public void UpdateHealth(int value)
+    {
+        healthBar.value = value;
+    }
+
+    public void PauseButton()
+    {
+        pauseOn = !pauseOn;
+        pausePanel.SetActive(pauseOn);
+        if (pauseOn)
+        {
+            Time.timeScale = 0f;
+        }
+        else
+        {
+            Time.timeScale = 1f;
+        }
+    }
+
+    public void SetReloj(float time)
+    {
+        float value = 0;
+        float aux = time - 32400;
+        if(aux >= 0)
+        {
+            value = (aux * 100) / 86400;
+            value = value / 100;
+        }
+        else
+        {
+            aux = aux + 86400;
+            value = (aux * 100) / 86400;
+            value = value / 100;
+        }
+
+        relojImage.fillAmount = value;
+    }
+
+    public void ShowWifeHealth(int health, bool active)
+    {
+        if(active)
+        {
+            healthWifeBar.value = health;
+            healthWifeBar.gameObject.SetActive(active);
+        }else
+        {
+            healthWifeBar.gameObject.SetActive(active);
+        }
     }
 }

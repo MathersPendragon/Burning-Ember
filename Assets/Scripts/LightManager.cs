@@ -1,13 +1,13 @@
 ﻿using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 
-[ExecuteAlways]
+//[ExecuteAlways]
 public class LightManager : MonoBehaviour
 {
 
 	//References
 	[SerializeField] private Light2D directionalLight;
-	[SerializeField] private LightingPreset preset;
+	[SerializeField] private Gradient AmbientColor;
 	//Variables
 	[SerializeField, Range(0, 24)] private float timeOfDay;
 
@@ -29,26 +29,24 @@ public class LightManager : MonoBehaviour
 
 	private void Update()
 	{
-		if (preset == null)
-			return;
 
-		if (Application.isPlaying)
-		{
+		//if (Application.isPlaying)
+		//{
 			TiempoAvanza();
 			UpdateLighting(timeOfDay);
-
-		}
-		else
-		{
-			UpdateLighting(timeOfDay / 24);
-		}
+			UpdateRelojCanvas();
+		//}
+		//else
+		//{
+		//	UpdateLighting(timeOfDay / 24);
+		//}
 	}
 	private void UpdateLighting(float timePercent)
 	{
 
 		if (directionalLight != null)
 		{
-			directionalLight.color = preset.AmbientColor.Evaluate(timePercent);
+			directionalLight.color = AmbientColor.Evaluate(timePercent);
 		}
 
 		if(currentHour > 5 && currentHour < 17 && isNight)
@@ -65,8 +63,8 @@ public class LightManager : MonoBehaviour
 
 	void TiempoAvanza() //Controla frame por frame el tiempo
 	{
-		float rot = (360 * (1 / maxTime)) * Time.deltaTime * speed;
-		directionalLight.transform.Rotate(rot, 0, 0);
+		//float rot = (360 * (1 / maxTime)) * Time.deltaTime * speed;
+		//directionalLight.transform.Rotate(rot, 0, 0);
 		if (currentTime > maxTime)
 		{
 			currentTime -= maxTime;
@@ -92,4 +90,9 @@ public class LightManager : MonoBehaviour
 
 		currentTimeText += currentHour.ToString() + ":" + currentMinute.ToString() + ":" + seconds.ToString();
 	}
+
+	void UpdateRelojCanvas()
+    {
+		GameManager.Instance.canvas.SetReloj(currentTime);
+    }
 }
