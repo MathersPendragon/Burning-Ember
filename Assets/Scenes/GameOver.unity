@@ -408,7 +408,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ce6443c1327fe144dabf3cc11bc49023, type: 3}
-    m_FontSize: 178
+    m_FontSize: 111
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -419,7 +419,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Game Over
+  m_Text: You lose! You have not survived the darkness, neither kept your wife alive.
+    Retry
 --- !u!222 &550211829
 CanvasRenderer:
   m_ObjectHideFlags: 0

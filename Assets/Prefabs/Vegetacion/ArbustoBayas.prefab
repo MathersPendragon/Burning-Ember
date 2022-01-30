@@ -49,7 +49,7 @@ MonoBehaviour:
   interactionType: 0
   barAction: 1
   barMaxValue: 50
-  nameAction: Cortar
+  nameAction: Cut
   spriteRenderer: {fileID: 4289841118085943418}
   recursoObjects:
   - {fileID: 908202737606610612, guid: d635f1bdcf7ed46469978f8e25a25e04, type: 3}

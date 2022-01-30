@@ -49,7 +49,7 @@ MonoBehaviour:
   interactionType: 1
   barAction: 0
   barMaxValue: 100
-  nameAction: Recoger
+  nameAction: Pick
   spriteRenderer: {fileID: 0}
   recursoObjects:
   - {fileID: 0}
