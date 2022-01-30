@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Wife : MonoBehaviour
 {
@@ -8,8 +9,9 @@ public class Wife : MonoBehaviour
     public float healthCadence = 3;
     float nextCheck;
     private bool inZone = false;
+    public bool damageZone = false;
 
-
+    public Zone zoneWife;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,10 +21,31 @@ public class Wife : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time > nextCheck)
+
+
+        if (zoneWife.zoneState == ZoneState.Sick)
         {
-            SetHealth(-1);
-            nextCheck = Time.time + healthCadence;
+            damageZone = true;
+        }
+        else
+        {
+            damageZone = false;
+        }
+
+        if (damageZone)
+        {
+            if (Time.time > nextCheck)
+            {
+                SetHealth(-1);
+                nextCheck = Time.time + healthCadence/40;
+            }
+        }else
+        {
+            if (Time.time > nextCheck)
+            {
+                SetHealth(-1);
+                nextCheck = Time.time + healthCadence;
+            }
         }
 
         if(inZone)
@@ -42,7 +65,7 @@ public class Wife : MonoBehaviour
 
         if (health < 1)
         {
-            Debug.Log("GAME OVER");
+            SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
         }
 
         //GameManager.Instance.canvas.UpdateHealth(health);
@@ -56,8 +79,10 @@ public class Wife : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.GetComponent<Player>() != null)
+        {
             inZone = false;
             ShowHealth(health, false);
+        }
     }
 
     void ShowHealth(int healthValue, bool activeValue)

@@ -40,7 +40,7 @@ public class LightSource : MonoBehaviour
         }
     }
 
-    void OutEnergy()
+    public void OutEnergy()
     {
         actualZone.OutEnergyLight();
         Debug.Log(transform.name + ": Sin Energia");

@@ -21,6 +21,8 @@ public class LightManager : MonoBehaviour
 	private float currentHour;
 	private float currentMinute;
 	bool isNight = true;
+
+	public AudioSource audioSource;
 	private void Start()
 	{
 		currentTime = ((initialTime * 60) * 60);
@@ -49,14 +51,17 @@ public class LightManager : MonoBehaviour
 			directionalLight.color = AmbientColor.Evaluate(timePercent);
 		}
 
-		if(currentHour > 5 && currentHour < 17 && isNight)
+		if(currentHour > 8 && currentHour < 18 && isNight)
         {
 			Debug.Log("FinalNoche");
 			isNight = false;
-		}else if(currentHour > 17 && !isNight)
+			audioSource.Play();
+			GameManager.Instance.transitionDay(isNight);
+		}
+		else if(currentHour > 18 && !isNight)
         {
-			Debug.Log("FinalDia");
 			isNight = true;
+			GameManager.Instance.transitionDay(isNight);
 		}
 	}
 

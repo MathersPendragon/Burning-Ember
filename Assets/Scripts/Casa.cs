@@ -5,6 +5,9 @@ using UnityEngine;
 public class Casa : MonoBehaviour
 {
     public GameObject[] Techo;
+
+    public AudioSource ambient;
+    public AudioClip[] ambientSounds;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +43,9 @@ public class Casa : MonoBehaviour
         for (int i = 0; i < Techo.Length; i++)
         {
             Techo[i].SetActive(false);
+            GameManager.Instance.player.isWoodSound = true;
+            ambient.clip = ambientSounds[1];
+            ambient.Play();
         }
     }
 
@@ -48,6 +54,9 @@ public class Casa : MonoBehaviour
         for (int i = 0; i < Techo.Length; i++)
         {
             Techo[i].SetActive(true);
+            GameManager.Instance.player.isWoodSound = false;
+            ambient.clip = ambientSounds[0];
+            ambient.Play();
         }
     }
 }

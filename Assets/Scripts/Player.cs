@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 public enum PlayerState { Idle, Move, Attack }
 public class Player : MonoBehaviour
@@ -24,6 +24,16 @@ public class Player : MonoBehaviour
     private bool isTarget = false;
     private Vector2 targetDirection;
 
+
+    public AudioSource soundHacha;
+
+    public AudioSource soundPasos;
+    private AudioClip pasoAnterior;
+    public bool isWoodSound = false;
+    public AudioClip[] stepWood;
+    public AudioClip[] stepGrass;
+    public float cadenceStep;
+    float nextCheckStep;
     // Start is called before the first frame update
     void Start()
     {
@@ -114,6 +124,12 @@ public class Player : MonoBehaviour
         if (movement.y != 0 || movement.x != 0)
         {
             animDirection = movement;
+
+            if (Time.time > nextCheckStep)
+            {
+                PlayStep();
+                nextCheckStep = Time.time + cadenceStep;
+            }
         }
 
         anim.SetFloat("Vertical", animDirection.y);
@@ -146,7 +162,7 @@ public class Player : MonoBehaviour
 
         if(health < 1)
         {
-            Debug.Log("GAME OVER");
+            SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
         }
 
         GameManager.Instance.canvas.UpdateHealth(health);
@@ -176,5 +192,29 @@ public class Player : MonoBehaviour
         {
             damage = false;
         }
+    }
+
+    public void PlayAxe()
+    {
+        float pitch = Random.Range(0.75f, 1.25f);
+        soundHacha.pitch = pitch;
+        soundHacha.Play();
+    }
+
+    public void PlayStep()
+    {
+        AudioClip[] sounds = stepGrass;
+        if(isWoodSound)
+        {
+            sounds = stepWood;
+        }
+        float pitch = Random.Range(0.8f, 1.1f);
+        soundPasos.pitch = pitch;
+        int n = Random.Range(1, sounds.Length);
+        pasoAnterior = sounds[n];
+        soundPasos.clip = pasoAnterior;
+        sounds[n] = sounds[0];
+        sounds[0] = pasoAnterior;
+        soundPasos.Play();
     }
 }

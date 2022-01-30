@@ -10,6 +10,8 @@ public class Inventory : MonoBehaviour
     public GameObject[] lamps;
     public int[] costLamps;
     public Transform lampSpawn;
+
+    public AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +40,7 @@ public class Inventory : MonoBehaviour
     {
         GameObject lamp = Instantiate(lamps[id], lampSpawn.position, lampSpawn.rotation) as GameObject;
         ItemAdd(id, -costLamps[id]);
+        audioSource.Play();
         UpdateResource();
     }
 
@@ -78,6 +81,13 @@ public class Inventory : MonoBehaviour
             GameManager.Instance.canvas.UpdateButtonLamp(3, true);
         }
 
-
+        if (itemAmount[4] < costLamps[4])
+        {
+            GameManager.Instance.canvas.UpdateButtonLamp(4, false);
+        }
+        else
+        {
+            GameManager.Instance.canvas.UpdateButtonLamp(4, true);
+        }
     }
 }

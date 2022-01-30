@@ -10,9 +10,9 @@ public class CanvasManager : MonoBehaviour
     public LayerMask interactableLayer;
     public Interactable actualInteraction;
     public RectTransform boxInteraction;
-    private Text boxInteractionText;
-    private Image boxInteractionImage;
-    private Slider boxInteractionSlider;
+    public Text boxInteractionText;
+    public Button boxInteractionButton;
+    public Slider boxInteractionSlider;
     private Canvas canvas;
     private Transform playerTransform;
 
@@ -50,24 +50,26 @@ public class CanvasManager : MonoBehaviour
     //Reloj
     public Image relojImage;
 
+    //Inicial
+    public GameObject inicialPopUp;
+
     GraphicRaycaster m_Raycaster;
     PointerEventData m_PointerEventData;
     EventSystem m_EventSystem;
     // Start is called before the first frame update
     void Start()
     {
-        //Time.timeScale = 1f;
+        Time.timeScale = 1f;
         canvas = GetComponent<Canvas>();
         playerTransform = GameManager.Instance.player.transform;
-        boxInteractionText = boxInteraction.transform.GetChild(0).GetChild(0).GetComponent<Text>();
-        boxInteractionImage = boxInteraction.transform.GetChild(1).GetComponent<Image>();
-        boxInteractionSlider = boxInteraction.transform.GetChild(2).GetComponent<Slider>();
 
         overlay.SetActive(false);
         //Fetch the Raycaster from the GameObject (the Canvas)
         m_Raycaster = GetComponent<GraphicRaycaster>();
         //Fetch the Event System from the Scene
         m_EventSystem = GetComponent<EventSystem>();
+
+        Invoke("StartGame", 15);
     }
 
     void Update()
@@ -75,7 +77,10 @@ public class CanvasManager : MonoBehaviour
         SearchUI();
         CheckWork();
 
-
+        if(Input.anyKeyDown && inicialPopUp.activeSelf)
+        {
+            StartGame();
+        }
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
@@ -95,11 +100,11 @@ public class CanvasManager : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.F1))
             {
-                //SceneManager.LoadScene("Menu", LoadSceneMode.Single);
+                SceneManager.LoadScene("Menu", LoadSceneMode.Single);
             }
             if (Input.GetKeyDown(KeyCode.F2))
             {
-                //SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+                SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
             }
             if (Input.GetKeyDown(KeyCode.F3))
             {
@@ -112,6 +117,10 @@ public class CanvasManager : MonoBehaviour
         SearchInteraction();
     }
 
+    void StartGame()
+    {
+        inicialPopUp.SetActive(false);
+    }
     void SearchUI()
     {
         //Set up the new Pointer Event
@@ -160,6 +169,14 @@ public class CanvasManager : MonoBehaviour
             actualInteraction = interactable;
         }
 
+        if(actualInteraction.interactionType == InteractionType.Curacion || actualInteraction.interactionType == InteractionType.Recurso)
+        {
+            boxInteractionSlider.gameObject.SetActive(true);
+        }else
+        {
+            boxInteractionSlider.gameObject.SetActive(false);
+        }
+
         if (!boxInteraction.gameObject.activeSelf)
         {
             SetWorkValue(0, true);
@@ -168,11 +185,11 @@ public class CanvasManager : MonoBehaviour
         }
         if(DistanceToInteractable(interactable))
         {
-            boxInteractionImage.sprite = interactionSprites[0];
+            boxInteractionButton.interactable = true;
         }
         else
         {
-            boxInteractionImage.sprite = interactionSprites[1];
+            boxInteractionButton.interactable = false;
         }
 
         boxInteraction.position = Input.mousePosition;
@@ -226,7 +243,7 @@ public class CanvasManager : MonoBehaviour
     public bool DistanceToInteractable(Interactable interactable)
     {
         bool result = false;
-        if(Vector2.Distance(playerTransform.position, interactable.transform.position) < 1f)
+        if(Vector2.Distance(playerTransform.position, interactable.transform.position) < 1.2f)
         {
             result = true;
         }

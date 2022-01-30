@@ -5,6 +5,8 @@ using UnityEngine;
 public enum ZoneState { Clean, Sick, Canceled }
 public class Zone : MonoBehaviour
 {
+    public bool zoneStart = false;
+
     public LayerMask layerZone;//Capa que afectan las zonas
     public LayerMask layerLight;//Capa que almacena las luces
     public ZoneState zoneState = ZoneState.Clean;
@@ -22,6 +24,12 @@ public class Zone : MonoBehaviour
     public ParticleSystem fogParticle;
     public Color lightColor;
     public Color fogColor;
+
+    //Items
+    public GameObject[] itemsDrop;
+    public float[] itemsRate;
+
+    public AudioSource audioZona;
     void Start()
     {
         
@@ -50,6 +58,12 @@ public class Zone : MonoBehaviour
                 break;
         }
 
+
+        if(zoneStart)
+        {
+            GameManager.Instance.startZonesSick.Add(this);
+            zoneStart = false;
+        }
     }
 
     public void GetClean()
@@ -57,6 +71,7 @@ public class Zone : MonoBehaviour
         isSick = false;
         zoneState = ZoneState.Clean;
         contamination = 0;
+        audioZona.Stop();
         //Debug.Log(transform.name + " SE LIMPIO");
         fogParticle.Stop();
     }
@@ -78,6 +93,7 @@ public class Zone : MonoBehaviour
             return; //Corta la funcion aqui
         }
         fogParticle.Play();
+        audioZona.Play();
         var main = fogParticle.main;
         main.startColor = fogColor;
         //Debug.Log(transform.name + " se enfermo");
@@ -149,6 +165,7 @@ public class Zone : MonoBehaviour
     {
         if (contamination <= 0)
         {
+            ItemSpawner();
             GetClean();
         }
         else
@@ -200,6 +217,42 @@ public class Zone : MonoBehaviour
                 result += hitColliders[a].GetComponent<LightSource>().potence;
             }
         }
+        return result;
+    }
+
+    void ItemSpawner()
+    {
+        int random = ItemRandom();
+        if(random == 999)
+        {
+            return;
+        }
+        Vector2 randomPosition = new Vector2(transform.position.x + Random.Range(2, -2), transform.position.y + Random.Range(2, -2));
+        GameObject item = Instantiate(itemsDrop[random], randomPosition, transform.rotation) as GameObject; 
+    }
+
+    int ItemRandom()
+    {
+        int result = 0;
+        int random = Random.Range(0, 100);
+
+        if(random < itemsRate[2])
+        {
+            result = 2;
+        }
+        else if(random < itemsRate[1])
+        {
+            result = 1;
+        }
+        else if (random < itemsRate[0])
+        {
+            result = 0;
+        }
+        else
+        {
+            result = 999;
+        }
+
         return result;
     }
 }

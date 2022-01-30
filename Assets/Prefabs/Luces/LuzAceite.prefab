@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 6062550744228120638}
   - component: {fileID: 4643918988266072942}
   - component: {fileID: 6748360066188206219}
+  - component: {fileID: 1900529184074654568}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -122,7 +123,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4850005887547016642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.181, y: 0.101, z: 0}
+  m_LocalPosition: {x: -0.181, y: -0.022, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1729114914874011218}
@@ -761,7 +762,7 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 0, y: 0, z: 0}
+    m_Position: {x: 0, y: 0.12, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
     m_Scale: {x: 1, y: 1, z: 1}
     placementMode: 0
@@ -4849,6 +4850,19 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &1900529184074654568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4850005887547016642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1745ec2eb02a74409172e5d28bcac3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onUpdate: 0
 --- !u!1 &7108478922558493886
 GameObject:
   m_ObjectHideFlags: 0
@@ -4861,7 +4875,7 @@ GameObject:
   - component: {fileID: 7108478922558493824}
   - component: {fileID: 7108478922558493825}
   m_Layer: 9
-  m_Name: FuenteLuz
+  m_Name: LuzAceite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4911,8 +4925,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8b32a933a7877842884979deb404f62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  energy: 50
-  potence: 3
+  energy: 450
+  potence: 2
   cadence: 1
 --- !u!1 &7108478922755594781
 GameObject:

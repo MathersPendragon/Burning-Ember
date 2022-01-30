@@ -21,10 +21,18 @@ public class Interactable : MonoBehaviour
     public int idObjeto;
     public int amountObjeto;
 
+
+    public AudioSource soundInteraction;
+
     // Start is called before the first frame update
     void Start()
     {
         interactCollider = GetComponent<BoxCollider2D>();
+
+        if(interactionType == InteractionType.Objeto)
+        {
+            Destroy(transform.root.gameObject, 20);
+        }
     }
 
     // Update is called once per frame
@@ -50,6 +58,12 @@ public class Interactable : MonoBehaviour
                 break;
             default:
                 break;
+        }
+        if (soundInteraction != null)
+        {
+            float pitch = Random.Range(0.8f, 1.1f);
+            soundInteraction.pitch = pitch;
+            soundInteraction.Play();
         }
     }
 
@@ -87,6 +101,13 @@ public class Interactable : MonoBehaviour
     {
         GameManager.Instance.canvas.HiddenInteractionBox();
         GameManager.Instance.Inventory.ItemAdd(idObjeto, amountObjeto);
+        transform.root.GetComponent<SpriteRenderer>().enabled = false;
+        GetComponent<BoxCollider2D>().enabled = false;
+        Invoke("destroyItem", 1);
+    }
+
+    void destroyItem()
+    {
         Destroy(transform.root.gameObject);
     }
 
@@ -94,6 +115,6 @@ public class Interactable : MonoBehaviour
     {
         recursoParticles[0].Play();
         GameManager.Instance.Inventory.ItemAdd(5, -1);
-        GameManager.Instance.wife.SetHealth(10);
+        GameManager.Instance.wife.SetHealth(5);
     }
 }
