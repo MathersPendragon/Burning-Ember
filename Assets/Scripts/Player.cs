@@ -30,7 +30,7 @@ public class Player : MonoBehaviour
     public AudioSource soundPasos;
     private AudioClip pasoAnterior;
     public bool isWoodSound = false;
-    public AudioClip[] stepWood;
+    private AudioClip[] floorsteps;
     public AudioClip[] stepGrass;
     public float cadenceStep;
     float nextCheckStep;
@@ -203,11 +203,7 @@ public class Player : MonoBehaviour
 
     public void PlayStep()
     {
-        AudioClip[] sounds = stepGrass;
-        if(isWoodSound)
-        {
-            sounds = stepWood;
-        }
+        AudioClip[] sounds = floorsteps;
         float pitch = Random.Range(0.8f, 1.1f);
         soundPasos.pitch = pitch;
         int n = Random.Range(1, sounds.Length);
@@ -216,5 +212,13 @@ public class Player : MonoBehaviour
         sounds[n] = sounds[0];
         sounds[0] = pasoAnterior;
         soundPasos.Play();
+    }
+    public void EnterAreaStep(AudioClip[] _floorsteps)
+    {
+        floorsteps = _floorsteps;
+    }
+    public void ExitAreaStep()
+    {
+        floorsteps = stepGrass;
     }
 }

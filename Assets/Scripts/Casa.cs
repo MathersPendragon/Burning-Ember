@@ -43,7 +43,7 @@ public class Casa : MonoBehaviour
         for (int i = 0; i < Techo.Length; i++)
         {
             Techo[i].SetActive(false);
-            GameManager.Instance.player.isWoodSound = true;
+
             ambient.clip = ambientSounds[1];
             ambient.Play();
         }
@@ -53,8 +53,7 @@ public class Casa : MonoBehaviour
     {
         for (int i = 0; i < Techo.Length; i++)
         {
-            Techo[i].SetActive(true);
-            GameManager.Instance.player.isWoodSound = false;
+            Techo[i].SetActive(true);            
             ambient.clip = ambientSounds[0];
             ambient.Play();
         }
