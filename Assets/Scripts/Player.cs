@@ -82,12 +82,12 @@ public class Player : MonoBehaviour
                 }
                 break;
             case PlayerState.Move:
+                MoveState();
                 if (movement == Vector2.zero)
                 {
                     anim.SetBool("Run", false);
                     playerState = PlayerState.Idle;
                 }
-                MoveState();
                 break;
             case PlayerState.Attack:
                 if(!isAttack)
