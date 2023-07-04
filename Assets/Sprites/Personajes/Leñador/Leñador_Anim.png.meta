@@ -111,7 +111,7 @@ TextureImporter:
       213: 8226754027137298543
     second: "Le\xF1ador_Anim_35"
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -131,6 +131,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -162,10 +164,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -205,6 +211,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
@@ -984,6 +1026,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "Le\xF1ador_Anim_16": 8619125753310061337
+      "Le\xF1ador_Anim_34": 1680516419278406599
+      "Le\xF1ador_Anim_17": -1158172193590588711
+      "Le\xF1ador_Anim_25": 8857258502328054017
+      "Le\xF1ador_Anim_13": -6207660067589349552
+      "Le\xF1ador_Anim_26": -1170237010603569057
+      "Le\xF1ador_Anim_2": -8770259391460190186
+      "Le\xF1ador_Anim_7": 5681872316517832653
+      "Le\xF1ador_Anim_10": -7428720423798044980
+      "Le\xF1ador_Anim_24": -2078213627709742753
+      "Le\xF1ador_Anim_23": 379281587210189853
+      "Le\xF1ador_Anim_6": -5166248608779046328
+      "Le\xF1ador_Anim_35": 8226754027137298543
+      "Le\xF1ador_Anim_15": -5147272095213325938
+      "Le\xF1ador_Anim_8": -6544116081647538650
+      "Le\xF1ador_Anim_18": -2905370163608557033
+      "Le\xF1ador_Anim_20": -3214112118054959930
+      "Le\xF1ador_Anim_22": -4764016052994051832
+      "Le\xF1ador_Anim_30": 7303286190720847501
+      "Le\xF1ador_Anim_33": -4605264456149864800
+      "Le\xF1ador_Anim_0": -7627318095616777565
+      "Le\xF1ador_Anim_11": 4556144945861382384
+      "Le\xF1ador_Anim_29": -8486808706837383071
+      "Le\xF1ador_Anim_3": 5953706762636843666
+      "Le\xF1ador_Anim_4": -157640492841276446
+      "Le\xF1ador_Anim_9": 575760685579645758
+      "Le\xF1ador_Anim_14": 2379285387022724660
+      "Le\xF1ador_Anim_32": -2330564554932480351
+      "Le\xF1ador_Anim_12": -6561483180805555451
+      "Le\xF1ador_Anim_27": -1842350415328916649
+      "Le\xF1ador_Anim_5": 4265464687296377132
+      "Le\xF1ador_Anim_1": -4454657805873853142
+      "Le\xF1ador_Anim_21": 5073607271856250369
+      "Le\xF1ador_Anim_31": -7084782458493426903
+      "Le\xF1ador_Anim_19": 2136299400878827789
+      "Le\xF1ador_Anim_28": 5435365055498228436
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

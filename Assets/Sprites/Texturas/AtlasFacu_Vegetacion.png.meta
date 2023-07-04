@@ -78,7 +78,7 @@ TextureImporter:
       213: -1831181073400344860
     second: AtlasFacu_Vegetacion_24
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -98,6 +98,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -129,10 +131,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -172,6 +178,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
@@ -720,6 +762,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      AtlasFacu_Vegetacion_9: 4858686124895765482
+      AtlasFacu_Vegetacion_1: 2353618075446606977
+      AtlasFacu_Vegetacion_20: -4188203969249416893
+      AtlasFacu_Vegetacion_16: -7282629859663575825
+      AtlasFacu_Vegetacion_24: -1831181073400344860
+      AtlasFacu_Vegetacion_19: 3748129108273135941
+      AtlasFacu_Vegetacion_15: 8946560873827680393
+      AtlasFacu_Vegetacion_7: 751312069435046746
+      AtlasFacu_Vegetacion_2: 4885263831357303199
+      AtlasFacu_Vegetacion_4: 7220843461399069681
+      AtlasFacu_Vegetacion_3: 3573090491695794171
+      AtlasFacu_Vegetacion_17: 5257001400681328253
+      AtlasFacu_Vegetacion_8: 7532660443564975548
+      AtlasFacu_Vegetacion_18: -1891326530623698102
+      AtlasFacu_Vegetacion_23: -9103998871086464645
+      AtlasFacu_Vegetacion_13: 5267649263099996642
+      AtlasFacu_Vegetacion_14: 7642383002947785078
+      AtlasFacu_Vegetacion_22: 7162789851530526778
+      AtlasFacu_Vegetacion_21: 4776994823212753582
+      AtlasFacu_Vegetacion_0: 1032873174484988800
+      AtlasFacu_Vegetacion_10: 1874130314338697575
+      AtlasFacu_Vegetacion_12: 704789706675987979
+      AtlasFacu_Vegetacion_5: 8527059984809240525
+      AtlasFacu_Vegetacion_11: 8073534369732738518
+      AtlasFacu_Vegetacion_6: -3212597114830516614
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

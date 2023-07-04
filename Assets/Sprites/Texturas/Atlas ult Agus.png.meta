@@ -180,7 +180,7 @@ TextureImporter:
       213: -3287250824894242582
     second: Atlas ult Agus_58
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -200,6 +200,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -231,10 +233,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -274,6 +280,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
@@ -1536,6 +1578,66 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Atlas ult Agus_2: -1735537507968084752
+      Atlas ult Agus_53: -3022326725549881939
+      Atlas ult Agus_45: 3431591733788514137
+      Atlas ult Agus_8: 7250437986858062993
+      Atlas ult Agus_35: -1016894937504205943
+      Atlas ult Agus_49: -7244873143413758613
+      Atlas ult Agus_1: 3339544853000401912
+      Atlas ult Agus_0: 157492872832884875
+      Atlas ult Agus_10: 5042595564479596361
+      Atlas ult Agus_14: -5877603863332316849
+      Atlas ult Agus_38: -4338262220950253117
+      Atlas ult Agus_27: -1434368015827279000
+      Atlas ult Agus_41: -1580450317058950536
+      Atlas ult Agus_37: 902445703015149569
+      Atlas ult Agus_12: -1810066536529561258
+      Atlas ult Agus_50: 844206844297829433
+      Atlas ult Agus_17: 1451542259673109009
+      Atlas ult Agus_34: 4832268048908023091
+      Atlas ult Agus_5: -6218528356925351063
+      Atlas ult Agus_48: 2529158360763421050
+      Atlas ult Agus_25: -2582378041127928536
+      Atlas ult Agus_3: 4943548744534595800
+      Atlas ult Agus_7: -8164907773411969888
+      Atlas ult Agus_22: 1955197171306485678
+      Atlas ult Agus_33: -1909195504467166774
+      Atlas ult Agus_4: -3240975558365033659
+      Atlas ult Agus_28: -6446210501317032347
+      Atlas ult Agus_39: 7767789213189209486
+      Atlas ult Agus_30: -6574123206389218439
+      Atlas ult Agus_40: 6529507407860114135
+      Atlas ult Agus_46: -7212985647328709733
+      Atlas ult Agus_47: -4376579408719001370
+      Atlas ult Agus_19: -1566139444089623138
+      Atlas ult Agus_20: -9189090797842232226
+      Atlas ult Agus_13: 1688166847698641985
+      Atlas ult Agus_11: 6281702910266944955
+      Atlas ult Agus_32: 2752674353771445740
+      Atlas ult Agus_58: -3287250824894242582
+      Atlas ult Agus_51: 8267566762240374670
+      Atlas ult Agus_56: -4688184677772663530
+      Atlas ult Agus_31: -7610130727010882887
+      Atlas ult Agus_44: -6823746764305045606
+      Atlas ult Agus_18: -2691934526679797245
+      Atlas ult Agus_26: 7579417159468049811
+      Atlas ult Agus_55: 1594454074505411876
+      Atlas ult Agus_52: 645306192201418825
+      Atlas ult Agus_54: 3912867767734518460
+      Atlas ult Agus_57: -1557986845024072418
+      Atlas ult Agus_21: 5153223270832635897
+      Atlas ult Agus_36: -5576983812929085645
+      Atlas ult Agus_6: -573586001601307556
+      Atlas ult Agus_16: -709269317861193076
+      Atlas ult Agus_43: 6978802600820977958
+      Atlas ult Agus_24: -7535317627219566729
+      Atlas ult Agus_9: 5665504379815377062
+      Atlas ult Agus_23: 6137851847591617588
+      Atlas ult Agus_29: 8267104247515758916
+      Atlas ult Agus_15: 1975267509341481940
+      Atlas ult Agus_42: 4285740554722871817
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

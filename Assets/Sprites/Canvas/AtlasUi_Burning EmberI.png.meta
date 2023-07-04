@@ -165,7 +165,7 @@ TextureImporter:
       213: 7677177764345911571
     second: AtlasUi_Burning EmberI_53
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -185,6 +185,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -216,10 +218,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -259,6 +265,42 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
@@ -1416,6 +1458,61 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      AtlasUi_Burning EmberI_3: 2001763519782093374
+      AtlasUi_Burning EmberI_29: 3807752465102130269
+      AtlasUi_Burning EmberI_1: 1246365638320719727
+      AtlasUi_Burning EmberI_14: -6516812135831549237
+      AtlasUi_Burning EmberI_28: 4451395562870267392
+      AtlasUi_Burning EmberI_44: 1372406490438309078
+      AtlasUi_Burning EmberI_12: 5646000889041614460
+      AtlasUi_Burning EmberI_10: -8147260364537874240
+      AtlasUi_Burning EmberI_27: 836397264292017662
+      AtlasUi_Burning EmberI_15: -6590740816569594280
+      AtlasUi_Burning EmberI_6: -8069852804181245332
+      AtlasUi_Burning EmberI_53: 7677177764345911571
+      AtlasUi_Burning EmberI_22: -2672446131208039776
+      AtlasUi_Burning EmberI_30: 5077601956452318855
+      AtlasUi_Burning EmberI_19: -48692009203830526
+      AtlasUi_Burning EmberI_40: -8632467768430212847
+      AtlasUi_Burning EmberI_7: 4511694499154277551
+      AtlasUi_Burning EmberI_17: -3970058512483487904
+      AtlasUi_Burning EmberI_47: 7643546573563057468
+      AtlasUi_Burning EmberI_0: 7491715393698510045
+      AtlasUi_Burning EmberI_5: -3482324616482623213
+      AtlasUi_Burning EmberI_41: -8882845902743721531
+      AtlasUi_Burning EmberI_25: -7333719380926456481
+      AtlasUi_Burning EmberI_11: -5070648791545361604
+      AtlasUi_Burning EmberI_35: 1464240813687874028
+      AtlasUi_Burning EmberI_18: 603780604987465605
+      AtlasUi_Burning EmberI_34: 5964181602133653721
+      AtlasUi_Burning EmberI_42: -1109886555356342935
+      AtlasUi_Burning EmberI_43: 4647208170203406883
+      AtlasUi_Burning EmberI_46: -1905618416440420455
+      AtlasUi_Burning EmberI_50: -5679047185278398175
+      AtlasUi_Burning EmberI_24: -3715332236331723469
+      AtlasUi_Burning EmberI_26: 3257526408001132801
+      AtlasUi_Burning EmberI_4: 2154237424056245637
+      AtlasUi_Burning EmberI_21: 7735380971933125437
+      AtlasUi_Burning EmberI_49: 7241891724061701207
+      AtlasUi_Burning EmberI_33: 161783688196496266
+      AtlasUi_Burning EmberI_36: 7882194129680667401
+      AtlasUi_Burning EmberI_52: -6720279021788911356
+      AtlasUi_Burning EmberI_48: -7693684923436517605
+      AtlasUi_Burning EmberI_16: -2009625856264206269
+      AtlasUi_Burning EmberI_32: 6487082372373964399
+      AtlasUi_Burning EmberI_2: -355324976873016259
+      AtlasUi_Burning EmberI_39: -335333716647286661
+      AtlasUi_Burning EmberI_38: -4410019188433725589
+      AtlasUi_Burning EmberI_20: 1067475683713048182
+      AtlasUi_Burning EmberI_37: 9038600114700879128
+      AtlasUi_Burning EmberI_31: -5674901657065634920
+      AtlasUi_Burning EmberI_13: 53070526124693414
+      AtlasUi_Burning EmberI_45: -7108112578746796128
+      AtlasUi_Burning EmberI_9: 3274274441802731693
+      AtlasUi_Burning EmberI_23: 6370522564927731483
+      AtlasUi_Burning EmberI_8: -6180024821850187309
+      AtlasUi_Burning EmberI_51: 410042475645179616
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

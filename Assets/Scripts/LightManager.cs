@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
-using UnityEngine.Experimental.Rendering.Universal;
+
 
 //[ExecuteAlways]
 public class LightManager : MonoBehaviour
 {
 
 	//References
-	[SerializeField] private Light2D directionalLight;
+	[SerializeField] private UnityEngine.Rendering.Universal.Light2D directionalLight;
 	[SerializeField] private Gradient AmbientColor;
 	//Variables
 	[SerializeField, Range(0, 24)] private float timeOfDay;
